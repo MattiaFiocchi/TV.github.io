@@ -1,0 +1,58 @@
+/* TopCrime.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Colore di sfondo grigio chiaro */
+    color: #333; /* Colore del testo nero */
+    margin: 0;
+    padding: 0;
+}
+
+#films {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff; /* Sfondo bianco */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Ombra leggera */
+}
+
+h1 {
+    color: #2c3e50; /* Colore del titolo (blu scuro) */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.program {
+    border: 1px solid #ccc; /* Bordo grigio */
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ecf0f1; /* Sfondo grigio chiaro */
+    border-radius: 5px;
+}
+
+h3 {
+    color: #2980b9; /* Colore dell'intestazione (blu brillante) */
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.back-button {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #3498db; /* Colore del pulsante (blu) */
+    color: #fff; /* Testo bianco */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-button:hover {
+    background-color: #2980b9; /* Cambia colore al passaggio del mouse */
+}

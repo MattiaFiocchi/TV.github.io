@@ -1,0 +1,502 @@
+
+        <?xml-model href="verifica1.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+        <ProgrammiTelevisivi>
+
+            <Canale IDCanale="c1">
+
+                <programma>
+                    <NomeCanale>Rai 1</NomeCanale>
+                    <NomeFilm>Una notte da leoni 1</NomeFilm>
+                    <Ora_Inizio>8:00</Ora_Inizio>
+                    <Ora_Fine>9:40</Ora_Fine>
+                    <Durata>1h 40min</Durata>
+                    <Categoria>Commedia</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Una notte da leoni 2</NomeFilm>
+                    <Ora_Inizio>9:40</Ora_Inizio>
+                    <Ora_Fine>11:22</Ora_Fine>
+                    <Durata>1h 42min</Durata>
+                    <Categoria>Commedia</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Una notte da leoni 3</NomeFilm>
+                    <Ora_Inizio>11:22</Ora_Inizio>
+                    <Ora_Fine>13:02</Ora_Fine>
+                    <Durata>1h 40min</Durata>
+                    <Categoria>Commedia</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>John Wick</NomeFilm>
+                    <Ora_Inizio>13:02</Ora_Inizio>
+                    <Ora_Fine>14:43</Ora_Fine>
+                    <Durata>1h 41min</Durata>
+                    <Categoria>Azione</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>John Wick 2</NomeFilm>
+                    <Ora_Inizio>14:43</Ora_Inizio>
+                    <Ora_Fine>16:45</Ora_Fine>
+                    <Durata>2h 02min</Durata>
+                    <Categoria>Azione</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>John Wick 3</NomeFilm>
+                    <Ora_Inizio>16:45</Ora_Inizio>
+                    <Ora_Fine>18:56</Ora_Fine>
+                    <Durata>2h 11min</Durata>
+                    <Categoria>Azione</Categoria>
+                </programma>
+
+                <programma>
+                    <NomeFilm>John Wick 4</NomeFilm>
+                    <Ora_Inizio>18:56</Ora_Inizio>
+                    <Ora_Fine>21:45</Ora_Fine>
+                    <Durata>2h 49min</Durata>
+                    <Categoria>Azione</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Mechanic: Resurrection</NomeFilm>
+                    <Ora_Inizio>21:45</Ora_Inizio>
+                    <Ora_Fine>22:23</Ora_Fine>
+                    <Durata>1h 38min</Durata>
+                    <Categoria>Azione</Categoria>
+                </programma>
+
+            </Canale>
+
+            <Canale IDCanale="c2">
+                <programma>
+                    <NomeCanale>Rai 2</NomeCanale>
+                    <NomeFilm>tg2</NomeFilm>
+                    <Ora_Inizio>8:30</Ora_Inizio>
+                    <Ora_Fine>8:45</Ora_Fine>
+                    <Durata>15 min</Durata>
+                    <Categoria>Informazione</Categoria>
+                </programma>
+                <programma>    
+                    <NomeFilm>Radio2 Social Club</NomeFilm>
+                    <Ora_Inizio>8:45</Ora_Inizio>
+                    <Ora_Fine>9:58</Ora_Fine>
+                    <Durata>73 min</Durata>
+                    <Categoria>Commedia</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Meteo 2</NomeFilm>
+                    <Ora_Inizio>9:58</Ora_Inizio>
+                    <Ora_Fine>10:00</Ora_Fine>
+                    <Durata>2 min</Durata>
+                    <Categoria>Informazione</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>TG2 Italia Europa</NomeFilm>
+                    <Ora_Inizio>10:00</Ora_Inizio>
+                    <Ora_Fine>10:55</Ora_Fine>
+                    <Durata>55 min</Durata>
+                    <Categoria>Informazione</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Tg Sport</NomeFilm>
+                    <Ora_Inizio>11:00</Ora_Inizio>
+                    <Ora_Fine>11:10</Ora_Fine>
+                    <Durata>10 min</Durata>
+                    <Categoria>Informazione</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>I Fatti Vostri</NomeFilm>
+                    <Ora_Inizio>11:10</Ora_Inizio>
+                    <Ora_Fine>13:00</Ora_Fine>
+                    <Durata>1h 10min</Durata>
+                    <Categoria>Commedia</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>TG2 Tutto il bello che c'è</NomeFilm>
+                    <Ora_Inizio>13:30</Ora_Inizio>
+                    <Ora_Fine>13:50</Ora_Fine>
+                    <Durata>20 min</Durata>
+                    <Categoria>Informazione</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Tg2 Medicina 33</NomeFilm>
+                    <Ora_Inizio>13:50</Ora_Inizio>
+                    <Ora_Fine>14:00</Ora_Fine>
+                    <Durata>10 min</Durata>
+                    <Categoria>Informazione</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Ore 14</NomeFilm>
+                    <Ora_Inizio>14:00</Ora_Inizio>
+                    <Ora_Fine>15:25</Ora_Fine>
+                    <Durata>85 min</Durata>
+                    <Categoria></Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>BellaMa'</NomeFilm>
+                    <Ora_Inizio>15:25</Ora_Inizio>
+                    <Ora_Fine>17:00</Ora_Fine>
+                    <Durata>95 min</Durata>
+                    <Categoria>Informazione</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Radio2 Happy Family</NomeFilm>
+                    <Ora_Inizio>17:00</Ora_Inizio>
+                    <Ora_Fine>18:00</Ora_Fine>
+                    <Durata>60 min</Durata>
+                    <Categoria>Informazione</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Tg Parlamento</NomeFilm>
+                    <Ora_Inizio>18:00</Ora_Inizio>
+                    <Ora_Fine>18:10</Ora_Fine>
+                    <Durata>10 min</Durata>
+                    <Categoria>Informazione</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>TG2 LIS</NomeFilm>
+                    <Ora_Inizio>18:10</Ora_Inizio>
+                    <Ora_Fine>18:15</Ora_Fine>
+                    <Durata>5 min</Durata>
+                    <Categoria>Informazione</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Tg2</NomeFilm>
+                    <Ora_Inizio>18:15</Ora_Inizio>
+                    <Ora_Fine>18:40</Ora_Fine>
+                    <Durata>25 min</Durata>
+                    <Categoria>Informazione</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Tg Sport</NomeFilm>
+                    <Ora_Inizio>18:40</Ora_Inizio>
+                    <Ora_Fine>19:04</Ora_Fine>
+                    <Durata>24 min</Durata>
+                    <Categoria>Informazione</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Meteo 2</NomeFilm>
+                    <Ora_Inizio>19:04</Ora_Inizio>
+                    <Ora_Fine>19:05</Ora_Fine>
+                    <Durata>1 min</Durata>
+                    <Categoria>Informazione</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Castle - Detective tra le righe</NomeFilm>
+                    <Ora_Inizio>19:05</Ora_Inizio>
+                    <Ora_Fine>19:50</Ora_Fine>
+                    <Durata>45 min</Durata>
+                    <Categoria>Azione</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Il mercante in fiera</NomeFilm>
+                    <Ora_Inizio>19:50</Ora_Inizio>
+                    <Ora_Fine>20:30</Ora_Fine>
+                    <Durata>40 min</Durata>
+                    <Categoria>Informazione</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>TG2</NomeFilm>
+                    <Ora_Inizio>20:30</Ora_Inizio>
+                    <Ora_Fine>21:00</Ora_Fine>
+                    <Durata>30 min</Durata>
+                    <Categoria>Informazione</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>TG2 Post</NomeFilm>
+                    <Ora_Inizio>21:00</Ora_Inizio>
+                    <Ora_Fine>21:20</Ora_Fine>
+                    <Durata>20 min</Durata>
+                    <Categoria>Informazione</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Via Poma. Un mistero italiano</NomeFilm>
+                    <Ora_Inizio>21:20</Ora_Inizio>
+                    <Ora_Fine>23:15</Ora_Fine>
+                    <Durata>1h 55min</Durata>
+                    <Categoria>Informazione</Categoria>
+                </programma>
+            </Canale>
+
+            <Canale IDCanale="c3">
+                <programma>
+                    <NomeCanale>Top Crime</NomeCanale>
+                    <NomeFilm>CSI: Scena del crimine</NomeFilm>
+                    <Ora_Inizio>07:52</Ora_Inizio>
+                    <Ora_Fine>08:51</Ora_Fine>
+                    <Durata>59 min</Durata>
+                    <Categoria>Azione</Categoria>
+                </programma>
+                <programma>    
+                    <NomeFilm>Serie TV Flikken</NomeFilm>
+                    <Ora_Inizio>08:51</Ora_Inizio>
+                    <Ora_Fine>08:57</Ora_Fine>
+                    <Durata>66 min</Durata>
+                    <Categoria>Azione</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Serie TV Flikken</NomeFilm>
+                    <Ora_Inizio>08:57</Ora_Inizio>
+                    <Ora_Fine>11:11</Ora_Fine>
+                    <Durata>74 min</Durata>
+                    <Categoria>Azione</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Law e Order</NomeFilm>
+                    <Ora_Inizio>11:11</Ora_Inizio>
+                    <Ora_Fine>12:02</Ora_Fine>
+                    <Durata>51 min</Durata>
+                    <Categoria>Azione</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Law e Order</NomeFilm>
+                    <Ora_Inizio>12:02</Ora_Inizio>
+                    <Ora_Fine>13:01</Ora_Fine>
+                    <Durata>59 min</Durata>
+                    <Categoria>Azione</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Major Crimes</NomeFilm>
+                    <Ora_Inizio>13:01</Ora_Inizio>
+                    <Ora_Fine>13:58</Ora_Fine>
+                    <Durata>57 min</Durata>
+                    <Categoria>Azione</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Major Crimes</NomeFilm>
+                    <Ora_Inizio>13:58</Ora_Inizio>
+                    <Ora_Fine>14:58</Ora_Fine>
+                    <Durata>60 min</Durata>
+                    <Categoria>Azione</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Serie TV Flikken</NomeFilm>
+                    <Ora_Inizio>14:58</Ora_Inizio>
+                    <Ora_Fine>16:11</Ora_Fine>
+                    <Durata>73 min</Durata>
+                    <Categoria>Azione</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Serie TV Flikken</NomeFilm>
+                    <Ora_Inizio>16:11</Ora_Inizio>
+                    <Ora_Fine>17:27</Ora_Fine>
+                    <Durata>76 min</Durata>
+                    <Categoria>Azione</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Monk</NomeFilm>
+                    <Ora_Inizio>17:27</Ora_Inizio>
+                    <Ora_Fine>18:18</Ora_Fine>
+                    <Durata>51 min</Durata>
+                    <Categoria>Azione</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Monk</NomeFilm>
+                    <Ora_Inizio>18:18</Ora_Inizio>
+                    <Ora_Fine>19:18</Ora_Fine>
+                    <Durata>60 min</Durata>
+                    <Categoria>Azione</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Mojor Crimes</NomeFilm>
+                    <Ora_Inizio>19:18</Ora_Inizio>
+                    <Ora_Fine>20:14</Ora_Fine>
+                    <Durata>56 min</Durata>
+                    <Categoria>Azione</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Major Crimes</NomeFilm>
+                    <Ora_Inizio>20:14</Ora_Inizio>
+                    <Ora_Fine>21:12</Ora_Fine>
+                    <Durata>58 min</Durata>
+                    <Categoria>Azione</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Chicago PD</NomeFilm>
+                    <Ora_Inizio>21:14</Ora_Inizio>
+                    <Ora_Fine>21:56</Ora_Fine>
+                    <Durata>44 min</Durata>
+                    <Categoria>Azione</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Chicago PD</NomeFilm>
+                    <Ora_Inizio>21:56</Ora_Inizio>
+                    <Ora_Fine>22:54</Ora_Fine>
+                    <Durata>58 min</Durata>
+                    <Categoria>Azione</Categoria>
+                </programma>
+            </Canale>
+
+            <Canale IDCanale="c4">
+                <programma>
+                    <NomeCanale>Italia 1</NomeCanale>
+                    <NomeFilm>Chicago Med</NomeFilm>
+                    <Ora_Inizio>08:26</Ora_Inizio>
+                    <Ora_Fine>09:22</Ora_Fine>
+                    <Durata>56 min</Durata>
+                    <Categoria>Azione</Categoria>
+                </programma>
+                <programma>    
+                    <NomeFilm>Chicago Med</NomeFilm>
+                    <Ora_Inizio>09:22</Ora_Inizio>
+                    <Ora_Fine>10:22</Ora_Fine>
+                    <Durata>60 min</Durata>
+                    <Categoria>Azione</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>CSI: New York</NomeFilm>
+                    <Ora_Inizio>10:22</Ora_Inizio>
+                    <Ora_Fine>11:22</Ora_Fine>
+                    <Durata>60 min</Durata>
+                    <Categoria>Azione</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>CSI: New York</NomeFilm>
+                    <Ora_Inizio>11:22</Ora_Inizio>
+                    <Ora_Fine>12:22</Ora_Fine>
+                    <Durata>54 min</Durata>
+                    <Categoria>Azione</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Grande Fratello</NomeFilm>
+                    <Ora_Inizio>12:16</Ora_Inizio>
+                    <Ora_Fine>12:25</Ora_Fine>
+                    <Durata>9 min</Durata>
+                    <Categoria>Reality</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Studio Aperto</NomeFilm>
+                    <Ora_Inizio>12:25</Ora_Inizio>
+                    <Ora_Fine>12:59</Ora_Fine>
+                    <Durata>34 min</Durata>
+                    <Categoria>Notizie</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Meteo.it</NomeFilm>
+                    <Ora_Inizio>12:59</Ora_Inizio>
+                    <Ora_Fine>13:00</Ora_Fine>
+                    <Durata>1 min</Durata>
+                    <Categoria>Notizie</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Grande Fratello</NomeFilm>
+                    <Ora_Inizio>13:00</Ora_Inizio>
+                    <Ora_Fine>13:14</Ora_Fine>
+                    <Durata>14 min</Durata>
+                    <Categoria>Reality</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Sport Mediaset - Anticipazioni</NomeFilm>
+                    <Ora_Inizio>13:14</Ora_Inizio>
+                    <Ora_Fine>13:22</Ora_Fine>
+                    <Durata>8 min</Durata>
+                    <Categoria>Notizie</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Sport Mediaset</NomeFilm>
+                    <Ora_Inizio>13:22</Ora_Inizio>
+                    <Ora_Fine>14:05</Ora_Fine>
+                    <Durata>43 min</Durata>
+                    <Categoria>Notizie</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Simpson</NomeFilm>
+                    <Ora_Inizio>14:05</Ora_Inizio>
+                    <Ora_Fine>14:33</Ora_Fine>
+                    <Durata>28 min</Durata>
+                    <Categoria>Ragazzi</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Simpson</NomeFilm>
+                    <Ora_Inizio>14:33</Ora_Inizio>
+                    <Ora_Fine>14:59</Ora_Fine>
+                    <Durata>26 min</Durata>
+                    <Categoria>Ragazzi</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Simpson</NomeFilm>
+                    <Ora_Inizio>14:59</Ora_Inizio>
+                    <Ora_Fine>15:26</Ora_Fine>
+                    <Durata>27 min</Durata>
+                    <Categoria>Ragazzi</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>NCIS: Los Angeles</NomeFilm>
+                    <Ora_Inizio>15:26</Ora_Inizio>
+                    <Ora_Fine>16:23</Ora_Fine>
+                    <Durata>57 min</Durata>
+                    <Categoria>Serie TV</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>NCIS: Los Angeles</NomeFilm>
+                    <Ora_Inizio>16:23</Ora_Inizio>
+                    <Ora_Fine>17:19</Ora_Fine>
+                    <Durata>58 min</Durata>
+                    <Categoria>Serie TV</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Chicago PD</NomeFilm>
+                    <Ora_Inizio>17:19</Ora_Inizio>
+                    <Ora_Fine>18:18</Ora_Fine>
+                    <Durata>59 min</Durata>
+                    <Categoria>Serie TV</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Grande Fratello</NomeFilm>
+                    <Ora_Inizio>18:18</Ora_Inizio>
+                    <Ora_Fine>18:21</Ora_Fine>
+                    <Durata>3 min</Durata>
+                    <Categoria>Reality</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Studio Aperto Live</NomeFilm>
+                    <Ora_Inizio>18:21</Ora_Inizio>
+                    <Ora_Fine>18:24</Ora_Fine>
+                    <Durata>3 min</Durata>
+                    <Categoria>Notizie</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Meteo.it</NomeFilm>
+                    <Ora_Inizio>18:24</Ora_Inizio>
+                    <Ora_Fine>18:30</Ora_Fine>
+                    <Durata>6 min</Durata>
+                    <Categoria>Attualità</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Studio Aperto</NomeFilm>
+                    <Ora_Inizio>18:30</Ora_Inizio>
+                    <Ora_Fine>18:57</Ora_Fine>
+                    <Durata>27 min</Durata>
+                    <Categoria>Notizie</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Studio Aperto Mag</NomeFilm>
+                    <Ora_Inizio>18:57</Ora_Inizio>
+                    <Ora_Fine>19:28</Ora_Fine>
+                    <Durata>31 min</Durata>
+                    <Categoria>Notizie</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>CSI: Miami</NomeFilm>
+                    <Ora_Inizio>19:28</Ora_Inizio>
+                    <Ora_Fine>20:35</Ora_Fine>
+                    <Durata>67 min</Durata>
+                    <Categoria>Serie TV</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>NCIS - Unita anticrimine</NomeFilm>
+                    <Ora_Inizio>20:35</Ora_Inizio>
+                    <Ora_Fine>21:27</Ora_Fine>
+                    <Durata>52 min</Durata>
+                    <Categoria>Serie TV</Categoria>
+                </programma>
+                <programma>
+                    <NomeFilm>Attacco a Mumbai</NomeFilm>
+                    <Ora_Inizio>21:27</Ora_Inizio>
+                    <Ora_Fine>28:58</Ora_Fine>
+                    <Durata>1h 58min</Durata>
+                    <Categoria>Film</Categoria>
+                </programma>
+                
+            </Canale>
+
+        </ProgrammiTelevisivi>

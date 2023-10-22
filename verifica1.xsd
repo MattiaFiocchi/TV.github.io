@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ProgrammiTelevisivi">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Canale" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="programma" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="NomeCanale" minOccurs="0"/>
+                    <xs:element type="xs:string" name="NomeFilm"/>
+                    <xs:element type="xs:string" name="Ora_Inizio"/>
+                    <xs:element type="xs:string" name="Ora_Fine"/>
+                    <xs:element type="xs:string" name="Durata"/>
+                    <xs:element type="xs:string" name="Categoria"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="IDCanale" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
